@@ -11,9 +11,9 @@ class Pregunta_4{
     char signo;
     //Datos de entrada
     System.out.println("Ingrese el primer valor: ");
-    num1 = sc.nextInt();
+    num1 = sc.nextDouble();
     System.out.println("Ingrese el segundo valor: ");
-    num2 = sc.nextInt();
+    num2 = sc.nextDouble();
     System.out.println("Ingrese el signo: ");
     signo = sc.next().charAt(0);
     //Proceso

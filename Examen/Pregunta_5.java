@@ -83,9 +83,9 @@ public class Pregunta_5 {
     char signo;
     //Datos de entrada
     System.out.println("Ingrese el primer valor: ");
-    num1 = sc.nextInt();
+    num1 = sc.nextDouble();
     System.out.println("Ingrese el segundo valor: ");
-    num2 = sc.nextInt();
+    num2 = sc.nextDouble();
     System.out.println("Ingrese el signo: ");
     signo = sc.next().charAt(0);
     //Proceso
@@ -130,6 +130,7 @@ public class Pregunta_5 {
       System.out.println("2 = Determinar el monto de bono que percibirá un profesor");
       System.out.println("3 = Determinar que tipo de vacuna (A, B o C) contra el Covid 19 se debe aplicar a una persona");
       System.out.println("4 = Calcular una operación aritmética entre 2 valores introducidos y el signo correspondiente por teclado");
+      System.out.println("Ingrese la opcion: ");
       opcionesA=sc.nextInt();        
     }
   }
