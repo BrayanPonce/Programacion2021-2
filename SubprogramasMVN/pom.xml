@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>SubprogramasMVN</name>
   <url>http://maven.apache.org</url>
+<<<<<<< HEAD
     
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -14,6 +15,8 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+=======
+>>>>>>> d286aff01273f423d208272255a6a723c725c26c
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -22,6 +25,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<<<<<<< HEAD
 
 <build>
   <plugins>
@@ -42,3 +46,6 @@
 </build>
 
 </project>
+=======
+</project>
+>>>>>>> d286aff01273f423d208272255a6a723c725c26c
