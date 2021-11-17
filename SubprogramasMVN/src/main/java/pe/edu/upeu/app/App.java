@@ -1,9 +1,7 @@
 package pe.edu.upeu.app;
-<<<<<<< HEAD
 import pe.edu.upeu.app.modulo.*;
+import pe.edu.upeu.app.util.*;
 import java.util.Scanner;
-=======
->>>>>>> d286aff01273f423d208272255a6a723c725c26c
 
 /**
  * Hello world!
@@ -11,7 +9,6 @@ import java.util.Scanner;
  */
 public class App 
 {
-<<<<<<< HEAD
 
   //public static Subprogramas sp;
   public static Recursividad rc = new Recursividad();
@@ -56,11 +53,11 @@ public class App
     public static void main( String[] args )
     {
       System.out.println( "-------Bienvenidos al Sistema-------" );
+
+      LeerTeclado lt=new LeerTeclado();
+      int edad=lt.leer(0,"Ingrese su edad");
+      System.out.println(edad);
+
       menuOpciones();
-=======
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
->>>>>>> d286aff01273f423d208272255a6a723c725c26c
     }
 }
