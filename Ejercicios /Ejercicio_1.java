@@ -5,7 +5,6 @@ class Ejercicio_1{
   
   public static void main(String [] arg){
     
-
     int edad;
     System.out.println("Ingrese su edad: ");
     edad = sc.nextInt();
