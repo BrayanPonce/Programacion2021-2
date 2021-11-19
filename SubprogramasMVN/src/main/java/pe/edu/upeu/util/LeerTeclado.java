@@ -1,7 +1,6 @@
 package pe.edu.upeu.util;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class LeerTeclado{
@@ -21,7 +20,6 @@ public class LeerTeclado{
   public double leer(double val, String msg){
     System.out.print(msg+":");
     try{
-      val=Double.parseDouble(br.readline());
     }catch(Exception e){
       val=leer(val,msg);
     }

@@ -1,6 +1,5 @@
 package pe.edu.upeu.app;
 import pe.edu.upeu.app.modulo.*;
-import pe.edu.upeu.app.util.*;
 import java.util.Scanner;
 
 /**
@@ -53,10 +52,6 @@ public class App
     public static void main( String[] args )
     {
       System.out.println( "-------Bienvenidos al Sistema-------" );
-
-      LeerTeclado lt=new LeerTeclado();
-      int edad=lt.leer(0,"Ingrese su edad");
-      System.out.println(edad);
 
       menuOpciones();
     }
