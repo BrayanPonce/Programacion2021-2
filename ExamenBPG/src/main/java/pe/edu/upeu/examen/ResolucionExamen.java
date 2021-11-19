@@ -67,24 +67,27 @@ public class ResolucionExamen {
 
     public void Ejercicio4()
     {
-        int i, suma = 0, n;
+        int i, n, auxEntero;
         i = 1;
+        auxEntero = 0;
 
-        n = lt.leer(0, "Introduce un número ");
-        while (i < n)
+        n = lt.leer(0, "Introduce el rango de numeros ");
+
+        while (i <= n)
         {
-            if (n % i == 0)
-            {
-                suma = suma + i;
+            if(i % 2 == 0){
+                for(int j = (i / 2); j >= 1 ; j--){
+                    if( i % j == 0){
+                        auxEntero = auxEntero + j;
+                    }
+                }
+                if(auxEntero == i)
+                    System.out.println("Número Perfecto " + auxEntero);
             }
+            auxEntero = 0;
             i++;
         }
-        if (suma == n) {           // si el numero es igual a la suma de sus divisores es perfecto                
-            System.out.println("Perfecto");
-        } else {
-            System.out.println("No es perfecto");
 
-        }
     }
 
     public int Ejercicio5(int x, int n)
